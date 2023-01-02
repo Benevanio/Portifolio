@@ -34,13 +34,6 @@ Instale my-project com npm
   npm install
   cd bene-tesla
 ```
-## Deploy
-
-Para fazer o deploy desse projeto rode
-
-```bash
-  npm start
-```
     
 ## Licença
 
