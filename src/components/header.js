@@ -7,7 +7,9 @@ function header() {
   return (
     <div className="heaper-warapper">
     <main className="main-info">
-      <div className="main-info-text">Welcome to my portfolio</div>
+      <ReactTypingEffect className="typingeffect" text={['Welcome to my portfolio',
+        ]} speed={110} eraseDelay={600}/>
+        <br/>
        <ReactTypingEffect className="typingeffect" text={['I am Bene Tesla','Frontend developer','Backend developer',
         'Mobile developer',      
        ]} speed={100} eraseDelay={500}/>
