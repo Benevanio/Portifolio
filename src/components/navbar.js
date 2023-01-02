@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import React from 'react'
-
 const navbar = () => {
   return (
     
@@ -20,19 +19,23 @@ const navbar = () => {
     <a className="nav-link active" href="#">Home</a>
 </li>
 <li className="nav-item">
-    <a className="nav-link" href="#">About</a>
-</li>
-<li className="nav-item">
     <a className="nav-link" href="https://github.com/benetesla">Portfolio</a>
 </li>
 <li className="nav-item">
-    <a className="nav-link" href="#">Contact</a>
+    <a className="nav-link" href="https://www.linkedin.com/in/bene-tesla/">linkedin</a>
+</li>
+
+<li className="nav-item">
+    <a className="nav-link" href="https://api.whatsapp.com/send?phone=5519999528951&text=Obrigador%20por%20entrar%20em%20contato%20comigo%2C%20em%20que%20eu%20posso%20te%20ajudar%3F">whatsapp</a>
+    
+</li>
+
+<li className="nav-item">
+    <a className="nav-link" href="https://www.instagram.com/bene_tesla/">instagram</a>
+
 </li>
 <li className="nav-item">
     <a className="nav-link" href="https://drive.google.com/file/d/1H2e-fLDEC0b2n88lc8M1fRXkYOaS5uQ5/view?usp=sharing">Resume</a>
-</li>
-<li className="nav-item">
-    <a className="nav-link" href="https://www.instagram.com/bene_tesla/">instagram</a>
 </li>
 </ul>
 </div>
@@ -40,5 +43,7 @@ const navbar = () => {
 </nav>
   )
 }
+
+
 
 export default navbar
