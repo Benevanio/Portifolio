@@ -6,8 +6,8 @@ Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfóli
 
 ## Referência
 
- - [Tailwind](https://tailwindcss.com/docs/installation)
- - [Next Js](https://nextjs.org/docs/api-reference/create-next-app)
+ - [Bootstrap](https://getbootstrap.com/)
+ - [React Js](https://reactjs.org/)
 
 
 ## Variáveis de Ambiente
@@ -21,7 +21,6 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 
 ## Funcionalidades
 
-- Temas dark e light
 - Preview em tempo real
 - Modo tela cheia
 - Multiplataforma
