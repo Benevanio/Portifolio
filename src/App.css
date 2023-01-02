@@ -66,6 +66,12 @@ position: relative;
   font-style: normal;
   font-weight: 9000;
 }
+.main-info-text{
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
 .btn-main-offer{
   background: #fff;
   color: #000;
