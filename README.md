@@ -1,8 +1,7 @@
 # BENE_TESLA
 Salve pessoas 🐱‍👤:
 
-Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfólio foi construído com react js e tailwind.
-Possui o light mode e o dark mode assim como responsividade para o mobile.
+Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfólio foi construído com react js e Bootstrap, assim como responsividade para o mobile.
 
 
 ## Referência
@@ -37,6 +36,13 @@ Instale my-project com npm
   npm install
   cd bene-tesla
 ```
+## Deploy
+
+Para fazer o deploy desse projeto rode
+
+```bash
+  npm start
+```
     
 ## Licença
 
@@ -54,13 +60,7 @@ Instale my-project com npm
 
 
 
-## Deploy
 
-Para fazer o deploy desse projeto rode
-
-```bash
-  npm run dev
-```
 
 
 ## Etiquetas
