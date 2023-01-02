@@ -13,8 +13,8 @@ body{
 }
 nav a.nav-link {
     color: rgb(14, 13, 13);
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 800;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.9s ease-in-out;
