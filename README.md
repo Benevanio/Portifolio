@@ -14,9 +14,8 @@ Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfóli
 
 Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
 
-`npm run dev`
+`npm  start`
 
-`yarn dev`
 
 
 ## Funcionalidades
