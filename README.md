@@ -6,22 +6,20 @@ Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfóli
 
 ## Referência
 
- - [Tailwind](https://tailwindcss.com/docs/installation)
- - [Next Js](https://nextjs.org/docs/api-reference/create-next-app)
+ - [Bootstrap](https://getbootstrap.com/)
+ - [React Js](https://reactjs.org/)
 
 
 ## Variáveis de Ambiente
 
 Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
 
-`npm run dev`
+`npm  start`
 
-`yarn dev`
 
 
 ## Funcionalidades
 
-- Temas dark e light
 - Preview em tempo real
 - Modo tela cheia
 - Multiplataforma
@@ -35,13 +33,6 @@ Instale my-project com npm
   git clone
   npm install
   cd bene-tesla
-```
-## Deploy
-
-Para fazer o deploy desse projeto rode
-
-```bash
-  npm start
 ```
     
 ## Licença
@@ -57,10 +48,10 @@ Para fazer o deploy desse projeto rode
 ![Bene02](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Bene04](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
+## Badges
 
-
-
-
+ 
+[![](https://badgen.net/github/issues/benetesla/Portifolio)]() [![](https://badgen.net/github/open-issues/benetesla/Portifolio)]() [![](https://badgen.net/github/commits/benetesla/Portifolio)]() [![](https://badgen.net/github/last-commit/benetesla/Portifolio)]() [![](https://badgen.net/github/branches/benetesla/Portifolio)]() [![](https://badgen.net/github/releases/benetesla/Portifolio)]() [![](https://badgen.net/github/tags/benetesla/Portifolio)]() [![](https://badgen.net/github/contributors/benetesla/Portifolio)]() [![](https://badgen.net/github/dependents-pkg/benetesla/Portifolio)]() 
 
 
 ## Etiquetas
@@ -68,4 +59,14 @@ Para fazer o deploy desse projeto rode
 Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## Mobile Version
+
+![mobile version](https://user-images.githubusercontent.com/78994881/210831240-adb93f95-418e-4078-8584-a8a83c93e8d8.png)
+
+## Web Version
+
+![Web version](https://user-images.githubusercontent.com/78994881/210831629-507d90e9-bb9e-4110-82ea-a46fd10a5bc7.png)
+
+
 
