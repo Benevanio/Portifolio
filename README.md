@@ -60,3 +60,13 @@ Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
+## Mobile Version
+
+![mobile version](https://user-images.githubusercontent.com/78994881/210831240-adb93f95-418e-4078-8584-a8a83c93e8d8.png)
+
+## Web Version
+
+![Web version](https://user-images.githubusercontent.com/78994881/210831629-507d90e9-bb9e-4110-82ea-a46fd10a5bc7.png)
+
+
+
