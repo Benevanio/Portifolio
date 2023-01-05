@@ -7,10 +7,9 @@ function App() {
  
  return (
      <>
-      <Particles />
+           <Particles />
       <Navbar />
-      <Header />
-        
+      <Header />       
      
      </>
   );
