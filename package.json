@@ -13,6 +13,7 @@
     "react-particles": "^2.7.1",
     "react-scripts": "5.0.1",
     "react-typing-effect": "^2.0.5",
+    "sass": "^1.57.1",
     "tsparticles-engine": "^2.7.1",
     "web-vitals": "^2.1.4"
   },

@@ -1,6 +1,16 @@
 /*menu link*/
 #root{
   --primary-color: #fff;
+  --text: #424242;
+  --title: #2d2d2d;
+  --background-items: #d7d2d2;
+  --background: #fff;
+  --text-light: rgb(136, 153, 166);
+  --title-light: #fff;
+  --background-card: #fff;
+  --background-dark: rgb(21, 32, 43);
+  --dark-items: rgba(29, 161, 242, 0.1);
+  --card-dark: rgb(37, 51, 65);
 }
 body{
     background-color: #fff;
