@@ -32,7 +32,7 @@ const navbar = () => {
 
 </li>
 <li className="nav-item">
-    <a className="nav-link" href="https://drive.google.com/file/d/1H2e-fLDEC0b2n88lc8M1fRXkYOaS5uQ5/view?usp=sharing">Resume</a>
+    <a className="nav-link" href="https://drive.google.com/file/d/1LNMgak0AbHre2ZOjmldm6v_xYmHPyrkF/view?usp=sharing">Resume</a>
 </li>
 </ul>
 </div>
