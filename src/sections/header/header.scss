@@ -1,6 +1,5 @@
 $primary-color: #f5f5f5;
 $transition: all 0.2s ease-in-out;
-
 .header {
     margin-top: 5rem;
     height: calc(100vh - 5rem);
@@ -25,29 +24,7 @@ $transition: all 0.2s ease-in-out;
     transition: $transition;
     margin-top: 7rem;
 }
-.btn--outline1 {
-    border: 2px solid #e67e22;
-    color: #f7f3ef;
-    transition: $transition;
-    background-color: #e67e22;
-}
 
-.btn--outline1:hover {
-    background-color: #f7f3ef;
-    color: #e67e22;
-}
-
-.btn--outline2 {
-    border: 2px solid #e67e22;
-    color: #f7f3ef;
-    transition: $transition;
-    background-color: #754309;
-}
-
-.btn--outline2:hover {
-    background-color: #f7f3ef;
-    color: #754309;
-}
 
 .header__container p {
     width: 13rem;
@@ -75,13 +52,47 @@ $transition: all 0.2s ease-in-out;
 }
 
 .header__social-icon {
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
     color: #e67e22;
     transition: $transition;
 }
-
 .header__social-icon:hover {
-    background-color: #e67e22;
+    background-color: #754309;
     color: #f7f3ef;
-    border-radius: 50%;
+    border-radius: 10%;
+    transform: translateY(-0.8rem);
 }
+/*buttons*/
+.btn--outline1 {
+    border: 2px solid #e67e22;
+    color: #f7f3ef;
+    transition: $transition;
+    background-color: #e67e22;
+}
+
+.btn--outline1:hover {
+    background-color: #f7f3ef;
+    color: #e67e22;
+}
+
+.btn--outline2 {
+    border: 2px solid #e67e22;
+    color: #f7f3ef;
+    transition: $transition;
+    background-color: #754309;
+}
+
+.btn--outline2:hover {
+    background-color: #f7f3ef;
+    color: #754309;
+}
+
+@media screen  and (max-width: 1024px) {
+    .header {
+        margin-top: 0;
+        height: 100vh;
+    }
+    
+    }
+
+    
