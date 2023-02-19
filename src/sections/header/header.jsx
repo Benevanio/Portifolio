@@ -1,17 +1,30 @@
 import React from 'react'
 import './header.scss'
+import ReactTypingEffect from 'react-typing-effect';
+
 import Icones from '../Links/SocialMedia'
 import Logo from '../../images/Bhaskara_Bene.jpg'
 const header = () => {
     return (
+
+
         <header id='header'>
+           
             <div className='container header__container'>
                 <div className='header__profile'>
                     <img src={Logo} alt='profile' className='header__profile-img' />
                 </div>
-            
+
                 <h3>
-                    <span className='header__name'>Bene Tesla</span>
+                    <span className='header__name'>
+                        <ReactTypingEffect
+                            text={["⚡ Bene Tesla⚡"]}
+                            speed={100}
+                            eraseDelay={700}
+                            typingDelay={1000}
+                            className='header__name'
+                        />
+                    </span>
                 </h3>
                 <p className='header__description'>
                     Welcome to my portfolio. I am a full stack developer with
