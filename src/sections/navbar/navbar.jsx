@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import {IoIosColorPalette} from 'react-icons/io'
 import Logo  from '../../images/Logo.jpg'
 import './navbar.scss'
 import Data from '../Links/data'
@@ -24,9 +25,8 @@ const navbar = () => {
           })
         }
         </ul> 
-        <button id = "theme__icon">
-          
-          <i className="fas fa-palette"></i>
+        <button id = "theme__icon">         
+          <IoIosColorPalette />
         </button>
       </div>
     </nav>

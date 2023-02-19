@@ -1,10 +1,11 @@
-$primary-color: #53256e;
+$primary-color: #2c3e50;
 $secondary-color: #e67e22;
 $white: #fff;
-$Hsla: hsla(261, 90%, 37%, 0.4);
+$Hsla: hsla(0, 28%, 22%, 0.8);
+$transparent: transparent;
 
 nav {
-   width: 100vw;
+    width: 100vw;
     height: 6rem;
     display: grid;
     place-items: center;
@@ -14,7 +15,35 @@ nav {
     left: 0;
     z-index: 0;
     box-shadow: 1rem 0 8rem $Hsla;
+    transition: all 0.5s ease-in-out;
 }
-nav img{
-    display: none;
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
 }
+
+.nav__logo {
+    width: 4.5rem;
+   border-radius: 50%;
+    border: #e67e22 2px solid;
+}
+
+.nav__logo img {
+    border-radius: 50%;
+    border: #e67e22 2px solid;
+}
+.nav__menu{
+    display: flex;
+    gap: 3.5rem;
+}
+/*comfigurando o icone da palete de cores*/
+.theme__icon{
+    
+}
+
+
+    
