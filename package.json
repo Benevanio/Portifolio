@@ -1,20 +1,15 @@
 {
-  "name": "benetesla",
+  "name": "portifolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fontawesome": "^1.7.1",
-    "react-particles": "^2.7.1",
     "react-scripts": "5.0.1",
-    "react-typing-effect": "^2.0.5",
-    "sass": "^1.57.1",
-    "tsparticles-engine": "^2.7.1",
+    "sass": "^1.58.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tsparticles": "^2.7.1"
   }
 }
