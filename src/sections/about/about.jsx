@@ -1,5 +1,7 @@
 import React from 'react'
 import './about.scss'
+import CV from '../../CV/CV.pdf'
+import { BsFillArrowDownSquareFill } from 'react-icons/bs'
 
 import Logo from '../../images/Logo.jpg'
 const about = () => {
@@ -31,8 +33,9 @@ const about = () => {
               maybe a bachelor's degree in physics, Y
               es this is "I" the pleasure nerd🖖🖖.
             </p>
-            {/*dwonloda cv */}
-            <a href="https://drive.google.com/file/d/1LNMgak0AbHre2ZOjmldm6v_xYmHPyrkF/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn--outline2">Download CV</a>
+            <a href={CV} className="btn btn--outline2">
+              Download my CV   <BsFillArrowDownSquareFill />
+            </a>
           </div>
         </div>
       </div>
