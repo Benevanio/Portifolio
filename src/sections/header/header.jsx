@@ -29,8 +29,8 @@ const header = () => {
                     I am looking for a job as a developer and I am open to new opportunities.
                 </p>
                 <div className='heder__cta'>
-                    <a href='#contact' className='btn btn--outline'>Contact me</a>
-                    <a href='#portifolio' className='btn btn--outline'>My portfolio</a>
+                    <a href='#contact' className='btn btn--outline1'>Contact me</a>
+                    <a href='#portifolio' className='btn btn--outline2'>My portfolio</a>
                 </div>
                 <div className='header__social'>
                     {Icones.map((item) => {
