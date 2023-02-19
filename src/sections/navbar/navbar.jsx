@@ -7,7 +7,7 @@ const navbar = () => {
   return (
     <nav id='nav'>
       <div className='container nav__container'>
-        <a href='#' className='nav__logo'>
+        <a href='index.html' className='nav__logo'>
           <img src={Logo} alt='logo' />
         </a>   
         <ul className='nav__menu'>
@@ -24,7 +24,10 @@ const navbar = () => {
           })
         }
         </ul> 
-        <button className='btn'>Contact</button>
+        <button id = "theme__icon">
+          
+          <i className="fas fa-palette"></i>
+        </button>
       </div>
     </nav>
   )

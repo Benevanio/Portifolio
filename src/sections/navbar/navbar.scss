@@ -1,0 +1,50 @@
+$primary-color: #2c3e50;
+$secondary-color: #e67e22;
+$white: #fff;
+
+nav {
+    background-color: $primary-color;
+    color: $white;
+    padding: 0.5rem 0;
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        text-transform: uppercase;
+
+        li {
+            padding: 0.5rem;
+
+            a {
+                color: $white;
+                text-decoration: none;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+        
+    }
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    .nav__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .nav__logo img {
+        border: #e67e22 2px solid;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+}
