@@ -20,7 +20,7 @@ const footer = () => {
           Made with <i className='fas fa-heart'></i> by Bene Tesla
         </p>
         <p className='footer__text'>
-          © 2020 All rights reserved
+          © 2023 All rights reserved
         </p>
         <p className='footer__text'>
         buy me a coffee <a href='https://www.buymeacoffee.com/BeneTesla' target='_blank' rel='noopener noreferrer'>

@@ -59,3 +59,11 @@ $transition : all 0.3s ease-in-out;
         }
     }
 }
+.footer__text i{
+    color: #e67e22;
+    margin-left: 0.5rem;
+    transition: $transition;
+    &:hover{
+        color: #e67e22;
+    }
+}
