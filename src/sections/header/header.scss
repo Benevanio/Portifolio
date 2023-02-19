@@ -14,23 +14,17 @@ $transition: all 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .header__profile {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 17rem;
     border-radius: 15rem 15rem 2rem 2rem;
     border: 2px solid #e67e22;
     overflow: hidden;
     transition: $transition;
     margin-top: 7rem;
-}
-.header__container small {
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: #e67e22;
-    transition: $transition;
 }
 .btn--outline1 {
     border: 2px solid #e67e22;
@@ -38,43 +32,57 @@ $transition: all 0.2s ease-in-out;
     transition: $transition;
     background-color: #e67e22;
 }
+
 .btn--outline1:hover {
     background-color: #f7f3ef;
     color: #e67e22;
 }
+
 .btn--outline2 {
     border: 2px solid #e67e22;
     color: #f7f3ef;
     transition: $transition;
     background-color: #754309;
 }
+
 .btn--outline2:hover {
     background-color: #f7f3ef;
     color: #754309;
 }
+
 .header__container p {
     width: 13rem;
     text-align: center;
     margin: 0.5rem 0.2rem;
 }
+
 .header__name {
     font-size: 2rem;
     font-weight: 600;
     color: #2c3e50;
     transition: $transition;
 }
+
 .heder__cta {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
 }
+
 .header__social {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
 }
+
 .header__social-icon {
     font-size: 1.5rem;
     color: #e67e22;
     transition: $transition;
+}
+
+.header__social-icon:hover {
+    background-color: #e67e22;
+    color: #f7f3ef;
+    border-radius: 50%;
 }

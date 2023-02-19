@@ -9,14 +9,7 @@ const header = () => {
                 <div className='header__profile'>
                     <img src={Logo} alt='profile' className='header__profile-img' />
                 </div>
-                <small className='header__small'>
-                    This and my cosplay of bhaskara, matematician and astronomer from India.
-                    This cosplay was from a math competition of my school
-                    at the time of high school,
-                    in this competition I was the room leader
-                    along with a friend,
-                    our room was the champion of this competition.
-                </small>
+            
                 <h3>
                     <span className='header__name'>Bene Tesla</span>
                 </h3>
