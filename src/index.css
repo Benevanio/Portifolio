@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-hue: 270;
+  --black-lightness: 15%;
+  --dark-lightness: 44%;
+  --light-lightness: 96%;
+  --white-lightness: 100%;
+  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  --color-white: hsl(0, 5%, var(--white-lightness));
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  --color-black: hsl(0, 5%, var(--black-lightness));
+  /*general contaner*/
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  /*border radius*/
+  --border-radius-1: 1.2rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 0.5rem;
+  /*transition*/
+  --transition: all 500ms ease;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+/*General container */
+.container{
+  max-width: var(--container-width-lg);
+  margin-inline: auto;
+  max-width: 1920px;
+}
+/*General Container*/
+section {
+  padding: 10rem 0;
+  background: var(--color-light);
+  transition: var(--transition);
+}
+section:nth-child(even){
+  background: var(--color-white);
+
+}
+section > h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--color-dark);
+  transition: var(--transition);
+}
+
