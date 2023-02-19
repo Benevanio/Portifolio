@@ -33,16 +33,15 @@ const header = () => {
                     <a href='#portifolio' className='btn btn--outline'>My portfolio</a>
                 </div>
                 <div className='header__social'>
-                    { Icones.map((item) => {
-                       const {id, Link, icon} = item
-                          return (
+                    {Icones.map((item) => {
+                        const { id, Link, icon } = item
+                        return (
                             <div key={id} className='header__social-icon'>
-                            <a href={Link} target='_blank' rel='noopener noreferrer'>
-                                {icon}
-                            </a>
-
+                                <a href={Link} target='_blank' rel='noopener noreferrer'>
+                                    {icon}
+                                </a>
                             </div>
-                            )
+                        )
                     })}
                 </div>
 

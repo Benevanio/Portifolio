@@ -15,7 +15,7 @@ import { BsWhatsapp } from 'react-icons/bs';
         id: 4, Link: 'https://github.com/benetesla' , icon: <AiFillGithub className='social-icon' />
     },
     {
-        id: 5, Link: 'https://wa.me/551999529851', icon: <BsWhatsapp className='social-icon' />
+        id: 5, Link: 'https://wa.me/551999528951', icon: <BsWhatsapp className='social-icon' />
     },
 ]
 export default contactIcon
