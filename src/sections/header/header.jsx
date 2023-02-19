@@ -1,11 +1,14 @@
 import React from 'react'
 import './header.scss'
+import Logo  from '../../images/Bhaskara_Bene.jpg'
 const header = () => {
     return (
         <header id='header'>
-            <h2>
-                Header
-            </h2>
+            <div className='container header__container'>
+                <div className='header__profile'>
+                    <img src={Logo} alt='profile' className='header__profile-img' />
+                </div>
+            </div>
         </header>
     )
 }

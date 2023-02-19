@@ -2,7 +2,7 @@ $primary-color: #2c3e50;
 $secondary-color: #e67e22;
 $white: #fff;
 $Hsla: hsla(0, 28%, 22%, 0.8);
-$transparent: transparent;
+$background-color: #f5f5f5;
 
 nav {
     width: 100vw;
@@ -22,28 +22,39 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-
 }
 
 .nav__logo {
     width: 4.5rem;
-   border-radius: 50%;
+    border-radius: 50%;
     border: #e67e22 2px solid;
+    padding: 0.5rem;
+    margin: 5px;
 }
 
 .nav__logo img {
     border-radius: 50%;
     border: #e67e22 2px solid;
 }
-.nav__menu{
+
+.nav__menu {
     display: flex;
     gap: 3.5rem;
 }
+
 /*comfigurando o icone da palete de cores*/
-.theme__icon{
-    
+#theme__icon {
+    background-color: transparent;
+    color: #ccb8b8;
+    font-size: 2.2rem;
+    cursor: pointer;
 }
-
-
+/*media for mobile tablets and desktop*/
+@media screen and (max-width: 1024px) {
+   .nav__menu {
+       display: none;
+   }
+}
     
+
+
