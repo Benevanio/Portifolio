@@ -24,7 +24,7 @@ const header = () => {
                         />
                     </span>
                 </h3>
-                <p>
+                <p className='header__description'>
                     Welcome to my portfolio. I am a full stack developer with
                     a passion for learning new technologies.
                     I am currently studying at <a href='https://www.anhanguera.com/' target='_blank' rel='noopener noreferrer'>Anhaguera </a>
@@ -40,7 +40,7 @@ const header = () => {
                     {Icones.map((item) => {
                         const { id, Link, icon } = item
                         return (
-                            <div key={id} className='header__social-icon'>
+                            <div key={id} >
                                 <a href={Link} target='_blank' rel='noopener noreferrer'>
                                     {icon}
                                 </a>

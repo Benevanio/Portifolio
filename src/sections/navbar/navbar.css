@@ -45,4 +45,11 @@ nav {
     .nav__menu{
         display: none;
     }
+    .theme__icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        margin: -5rem 0;
+    }
 }
