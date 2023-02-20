@@ -8,3 +8,4 @@ export const Card = ({children, className, onClick}) => {
     </article>
   )
 }
+export default Card

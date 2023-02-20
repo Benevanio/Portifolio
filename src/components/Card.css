@@ -1,25 +1,46 @@
-
 .card {
-    background-color: white;
+    background: var(--color-primary);
     padding: 1.5rem;
+    margin: 2rem;
     border-radius: 2px solid transparent;
-    border-radius: 2rem;
-    
-    
+    border-radius: var(--border-radius-1);
+    transition: var(--transition);
+}
+.card:hover {
+    background: transparent;
+    border-color: var(--color-white);
+    transform: translateY(-0.5rem);
 }
 
 .card:hover {
     background: transparent;
-    
+    border-color: var(--color-white);
     transform: translateY(-0.5rem);
 }
-
-.card .ligth {
+.card.light{
     background: var(--color-light);
 }
+.card.light:hover{
+    background: transparent;
+    border-color: var(--color-light);
+}
+/*icones */
+.card .about__me__cards__card__icon{
+  color: rgb(247, 184, 11);
+    font-size: 2rem;
+}
+.card .about__me__cards__card__icon:hover{
+    color: var(--color-primary);
+}
+.card .about__me__cards__card__title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 600px) {
     .card {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 }
     

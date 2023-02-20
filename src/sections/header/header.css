@@ -89,7 +89,6 @@ header {
     .header__social {
         position: relative;
         margin-top: 2rem;
-       
         left: 0;
         bottom: 0;
         display: flex;
