@@ -6,6 +6,16 @@
     border-radius: var(--border-radius-1);
     transition: var(--transition);
 }
+.card p{
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card p:hover{
+    color: var(--color-primary);
+}
 .card:hover {
     background: transparent;
     border-color: var(--color-white);
@@ -28,6 +38,7 @@
 .card .about__me__cards__card__icon{
   color: rgb(247, 184, 11);
     font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card .about__me__cards__card__icon:hover{
     color: var(--color-primary);
