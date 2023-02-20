@@ -55,7 +55,7 @@ const about = () => {
             Download my CV   <BsFillArrowDownSquareFill />
           </a>
           <br />
-          <a href=" http://lattes.cnpq.br/9324222644313081" className="btn btn--outline2">
+          <a href=" http://lattes.cnpq.br/9324222644313081" className="btn btn--outline3">
             My Lattes CV  <BsCloudArrowDownFill />
           </a>
         </div>
