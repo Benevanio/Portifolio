@@ -7,18 +7,26 @@ import ReactTypingEffect from 'react-typing-effect'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+    const [color, setColor] = useState(false)
+    const changeBackground = () => {
+        if (window.scrollY >= 100) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }	
+    window.addEventListener('scroll', changeBackground)
     return (
-        <div className='Header'>
+        <div className={color ? 'Header Header-bg': 'Header'}>
             <Link to='/'>
                 <h1>
                    <ReactTypingEffect
                         text={[' ⚡ Bene Tesla ⚡']}
                         speed={100}
                         eraseSpeed={100}
-                        typingDelay={1000}
-                        eraseDelay={1000}
+                        typingDelay={400}
+                        eraseDelay={2000}
                         cursorRenderer={cursor => <h1>{cursor}</h1>}
-                    
                     />
                 </h1>
             </Link>
