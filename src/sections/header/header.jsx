@@ -1,13 +1,11 @@
 import React from 'react'
-import './header.scss'
+import './header.css'
 import ReactTypingEffect from 'react-typing-effect';
 
 import Icones from '../Links/SocialMedia'
 import Logo from '../../images/Bhaskara_Bene.jpg'
 const header = () => {
-    return (
-
-
+        return (
         <header id='header'>
            
             <div className='container header__container'>
@@ -26,7 +24,7 @@ const header = () => {
                         />
                     </span>
                 </h3>
-                <p className='header__description'>
+                <p>
                     Welcome to my portfolio. I am a full stack developer with
                     a passion for learning new technologies.
                     I am currently studying at <a href='https://www.anhanguera.com/' target='_blank' rel='noopener noreferrer'>Anhaguera </a>
@@ -34,9 +32,9 @@ const header = () => {
                     in Brazil.
                     I am looking for a job as a developer and I am open to new opportunities.
                 </p>
-                <div className='heder__cta'>
-                    <a href='#contact' className='btn btn-light btn--outline1'>Contact me</a>
-                    <a href='#portifolio' className='btn btn--outline2'>My portfolio</a>
+                <div className='header__cta'>
+                    <a href='#contact' className='btn primary'>Contact me</a>
+                    <a href='#portifolio' className='btn secondary'>My projects</a>
                 </div>
                 <div className='header__social'>
                     {Icones.map((item) => {

@@ -1,0 +1,25 @@
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 2px solid transparent;
+    border-radius: 2rem;
+    
+    
+}
+
+.card:hover {
+    background: transparent;
+    
+    transform: translateY(-0.5rem);
+}
+
+.card .ligth {
+    background: var(--color-light);
+}
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 1.5rem;
+    }
+}
+    

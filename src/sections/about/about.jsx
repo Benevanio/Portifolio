@@ -1,6 +1,7 @@
 import React from 'react'
-import './about.scss'
+import './about.css'
 import CV from '../../CV/CV.pdf'
+import Cards from '../Links/Services'
 import { BsFillArrowDownSquareFill } from 'react-icons/bs'
 
 import Logo from '../../images/Logo.jpg'
@@ -16,7 +17,23 @@ const about = () => {
             About me
           </h2>
           <div className="about__me__cards">
-            <p>
+            {
+              Cards.map((card) => {
+                return (
+                  <div className="card" key={card.id}>
+                    <div className="card__icon">
+                      {card.icon}
+                    </div>
+                    <div className="card__content">
+                      <h3>{card.title}</h3>
+                      <p>{card.text}</p>
+                    </div>
+                  </div>
+                )                  
+              })
+            }
+          </div>
+          <p>
               The nerdy guy and anime lover,
               yes this is me,
               the gentleman addicted to the subject
@@ -36,7 +53,10 @@ const about = () => {
             <a href={CV} className="btn btn--outline2">
               Download my CV   <BsFillArrowDownSquareFill />
             </a>
-          </div>
+            <br />
+            <a href=" http://lattes.cnpq.br/9324222644313081" className="btn btn--outline2">
+              My Lattes CV  <BsFillArrowDownSquareFill />
+            </a>
         </div>
       </div>
     </section>

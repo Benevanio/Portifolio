@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.scss'
+import './Card.css'
 export const Card = ({children, className, onClick}) => {
 
   return (

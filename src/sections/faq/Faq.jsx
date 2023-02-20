@@ -1,5 +1,5 @@
 import React from 'react'
-import './Faq.scss'
+import './Faq.css'
 const Faq = () => {
     return (
         <section id='faq'>
