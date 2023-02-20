@@ -10,7 +10,9 @@ const HeroImg = () => {
         <img src={Logo} alt='logo' className='IntroIm' />
       </div>
       <div className='content'>
-        <h1 className='title'>Bem vindo ao meu site</h1>
+        <h1 className='title'>
+          Welcome to my <span className='span'>Portfolio</span>
+        </h1>
         <p className='text'>
           <ReactTypingEffect
             text={["MERN Stack Developer", " Full Stack Developer ", "Front-End Developer ", "Back-End Developer"]}
