@@ -29,7 +29,7 @@ const about = () => {
               ))
             }
           </div>
-          <p>
+          <p className="about__me__text">
             The nerdy guy and anime lover,
             yes this is me,
             the gentleman addicted to the subject
@@ -37,8 +37,9 @@ const about = () => {
             studied about FEB and its importance in World War II,
             the guy who is always in search of knowing more and more.
           </p>
-          <p>
-            Hi my name is Benevanio or Bene tesla
+          <br />
+          <p className='about__me__text'>
+            Hi my name is Benevanio or <mark>Bene Tesla </mark>
             (name used in almost all my social networks).
             Natural of the city of Sergipe, Brazil.
             I'm attending the 4th semester of software engineering at Anhanguera University.

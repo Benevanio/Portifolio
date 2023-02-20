@@ -7,7 +7,7 @@
     transition: var(--transition);
 }
 .card p{
-    color: var(--color-white);
+    color: var(--color-dark);
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -43,11 +43,7 @@
 .card .about__me__cards__card__icon:hover{
     color: var(--color-primary);
 }
-.card .about__me__cards__card__title{
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
+
 
 @media screen and (max-width: 600px) {
     .card {
