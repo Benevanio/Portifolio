@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
-import CV from '.././cv/BENETELA.pdf'
+import CV from '../../cv/BENETELA.pdf'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
-
+import ReactTypingEffect from 'react-typing-effect'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -12,7 +11,15 @@ const Navbar = () => {
         <div className='Header'>
             <Link to='/'>
                 <h1>
-                    ⚡ Bene Tesla ⚡
+                   <ReactTypingEffect
+                        text={[' ⚡ Bene Tesla ⚡']}
+                        speed={100}
+                        eraseSpeed={100}
+                        typingDelay={1000}
+                        eraseDelay={1000}
+                        cursorRenderer={cursor => <h1>{cursor}</h1>}
+                    
+                    />
                 </h1>
             </Link>
             <ul className={click ? "nav-links active" : "nav-links"}>
