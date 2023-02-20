@@ -3,6 +3,7 @@ import './about.css'
 import CV from '../../CV/CV.pdf'
 import Card from '../../components/Card'
 import Services from '../Links/Services'
+import ReactTypingEffect from 'react-typing-effect';
 
 import { BsCloudArrowDownFill, BsFillArrowDownSquareFill } from 'react-icons/bs'
 
@@ -16,7 +17,13 @@ const about = () => {
         </div>
         <div className="about__content_Right">
           <h2>
-            About me
+           <ReactTypingEffect
+              text={["⚡ About me⚡"]}
+              speed={100}
+              eraseDelay={700}
+              typingDelay={1000}
+              className='header__name'
+            />
           </h2>
           <div className="about__me__cards">
             {

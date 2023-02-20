@@ -62,16 +62,21 @@
 
     .about__content_Left {
         height: fit-content;
-        max-width: 40rem;
+        max-width: 15rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
         border: 1rem solid var(--color-white);
         transition: var(--transition);
     }
-    .about__content_Left img{
+
+    .about__content_Left img {
         width: 100%;
     }
 
     .about__content_Right {
         max-width: 100%;
+        margin: 5rem 0;
     }
 
     .about__me__cards {
