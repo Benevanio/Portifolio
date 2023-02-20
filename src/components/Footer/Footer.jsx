@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import ReactTypingEffect from 'react-typing-effect'
@@ -50,7 +52,7 @@ const Footer = () => {
                             typingDelay={1000}
                             eraseDelay={1000}
                             cursorRenderer={cursor => <h4>{cursor}</h4>}
-                            />
+                        />
                     </h4>
                     <p>
                         👨‍💻 I'm a Full Stack Web
@@ -63,30 +65,26 @@ const Footer = () => {
                         a better developer. 👨‍💻
                     </p>
                     <div className="Social">
-                        <FaFacebook size={30} style={{ color: 'black', marginRight: '2rem' }}
-                            alt="Facebook"
+                    <a alt="Facebook"
                             href='https://www.facebook.com/benevanio.santos.7/'
                             target='_blank'
-
-                         />
-                        <FaGithub size={30} style={{ color: 'black', marginRight: '2rem'
-                        
-                         }}
-                            alt="Github"
+                        >
+                        <FaFacebook size={30} style={{ color: 'black', marginRight: '2rem' }}/>
+                        <a  alt="Github"
                             href='https://github.com/benetesla'
-                            target='_blank'
-                          />
-                        <FaInstagram size={30} style={{ color: 'black', marginRight: '2rem' }} 
-                            alt="Instagram"
+                            target='_blank'>
+                        <FaGithub size={30} style={{
+                            color: 'black', marginRight: '2rem'}}/>
+                        </a>
+                        </a>
+                        <a alt="Instagram"
                             href='https://www.instagram.com/bene_tesla/'
-                            target='_blank'
-
-                        />
-                        <FaLinkedin size={30} style={{ color: 'black', marginRight: '2rem' }} 
-                            alt="Linkedin"
-                            href='https://www.linkedin.com/in/bene-tesla/'
-                            target='_blank'
-                        />
+                            target='_blank'>
+                            <FaInstagram size={30} style={{ color: 'black', marginRight: '2rem' }} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/benevanio-santos-0b1b3b1b3/">
+                            <FaLinkedin size={30} style={{ color: 'black', marginRight: '2rem' }} />
+                        </a>
                     </div>
                 </div>
             </div>
