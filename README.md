@@ -1,71 +1,70 @@
-# BENE_TESLA
-Salve pessoas 🐱‍👤:
+# Getting Started with Create React App
 
-Vida longa e próspera, sejam muito bem vindos ao meu portfólio, este portfólio foi construído com react js e Bootstrap, assim como responsividade para o mobile.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Referência
+In the project directory, you can run:
 
- - [React Js](https://reactjs.org/)
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Variáveis de Ambiente
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+### `npm test`
 
-`npm  start`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Funcionalidades
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-## Instalação
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Instale my-project com npm
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-  git clone
-  npm install
-  cd bene-tesla
-```
-    
-## Licença
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-## Stacks Utilizadas
-**Front-end:**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-![Bene01](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Bene02](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![Bene04](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+### Code Splitting
 
-## Badges
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
- 
-[![](https://badgen.net/github/issues/benetesla/Portifolio)]() [![](https://badgen.net/github/open-issues/benetesla/Portifolio)]() [![](https://badgen.net/github/commits/benetesla/Portifolio)]() [![](https://badgen.net/github/last-commit/benetesla/Portifolio)]() [![](https://badgen.net/github/branches/benetesla/Portifolio)]() [![](https://badgen.net/github/releases/benetesla/Portifolio)]() [![](https://badgen.net/github/tags/benetesla/Portifolio)]() [![](https://badgen.net/github/contributors/benetesla/Portifolio)]() [![](https://badgen.net/github/dependents-pkg/benetesla/Portifolio)]() 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Etiquetas
+### Making a Progressive Web App
 
-Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+### Advanced Configuration
 
-## Mobile Version
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-![mobile version](https://user-images.githubusercontent.com/78994881/210831240-adb93f95-418e-4078-8584-a8a83c93e8d8.png)
+### Deployment
 
-## Web Version
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-![Web version](https://user-images.githubusercontent.com/78994881/210831629-507d90e9-bb9e-4110-82ea-a46fd10a5bc7.png)
+### `npm run build` fails to minify
 
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
