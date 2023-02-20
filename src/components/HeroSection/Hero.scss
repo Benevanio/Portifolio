@@ -51,6 +51,7 @@
 .btn01:hover{
     background: #fff;
     color: #a237e0;
+    transform: translateY(-0.5rem);
 }
 .btn02{
     display: inline-block;
@@ -65,4 +66,5 @@
 .btn02:hover{
     background: #a237e0;
     color: #fff;
+    transform: translateY(-0.5rem);
 }
