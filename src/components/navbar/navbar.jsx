@@ -33,7 +33,7 @@ const Navbar = () => {
                         <i className="fas fa-project-diagram"></i>
                     </Link>
                 </li>
-                <li>
+                <li className='ICONES'>
                     <Link to='/about'>
                         <i className="fas fa-user"></i>
                     </Link>
