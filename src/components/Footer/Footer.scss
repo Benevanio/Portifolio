@@ -54,28 +54,23 @@ $color-primary: #9607d8;
     flex-direction: column;
     padding: 1.1rem 0;
 }
-.Phone i {
-   width: 4rem;
-   height: 2rem;
-}
+
 .Right {
     height: 100%;
     max-width: 100%;
-    display: flex;
+    
     flex-direction: column;
-    padding: 1rem;
+   
 }
 .Right h4{
     color: antiquewhite;
-    margin-bottom: 1rem;
+    
 }
 .Right p{
     color: antiquewhite;
-    margin-bottom: 1rem;
+   
 }
-.Social {
-    display: flex;
-    margin-bottom: 0.8rem;   
+.Social {    
     flex-direction: row;
     cursor: pointer;
 }
