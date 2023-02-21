@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
 import CV from '../../cv/BENETELA.pdf'
+import TESLA from '../../IMG/Tesla.jpg'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import ReactTypingEffect from 'react-typing-effect'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -19,16 +19,9 @@ const Navbar = () => {
     return (
         <div className={color ? 'Header Header-bg': 'Header'}>
             <Link to='/'>
-                <h1>
-                   <ReactTypingEffect
-                        text={[' ⚡ Bene Tesla ⚡']}
-                        speed={100}
-                        eraseSpeed={100}
-                        typingDelay={400}
-                        eraseDelay={2000}
-                        cursorRenderer={cursor => <h1>{cursor}</h1>}
-                    />
-                </h1>
+             
+                  <img src={TESLA} alt="Nikolatesla" id="Tesla"></img>
+        
             </Link>
             <ul className={click ? "nav-links active" : "nav-links"}>
                 <li className='ICONES'>
