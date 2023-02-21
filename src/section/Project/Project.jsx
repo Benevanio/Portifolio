@@ -6,7 +6,10 @@ const Project = () => {
   return (
     <>
       <Navbar />
-      <Projects />
+      <Projects
+        Heading="Projects"
+        text="Some of my recent projects"
+      />
       <Footer />
     </>
   )

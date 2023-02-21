@@ -1,18 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Project.scss'
-const Projects = () => {
-    return (
-        <div className="Hero__IMG">
-            <div className="Heading">
-                <h1>
-                    This is the Projects page
-                </h1>
-                <p>
-                    This is the Projects page
-                </p>
+class Projects extends Component {
+    render() {
+        return(
+            <div className = "Hero__IMG" >
+                <div className="Heading">
+                    <h1>
+                        {this.props.Heading}
+                    </h1>
+                    <p>
+                        {this.props.text}
+                    </p>
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
+  
 }
 
 export default Projects
