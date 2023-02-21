@@ -55,27 +55,21 @@ const Footer = () => {
                         />
                     </h4>
                     <p>
-                        👨‍💻 I'm a Full Stack Web
-                        Developer with a passion
-                        for learning new technologies
-                        and creating new things.
-                        I'm currently working on
-                        my skills and learning new
-                        technologies to become
-                        a better developer. 👨‍💻
+                        I am a MERN stack developer, MongoDB, Express, React, NodeJS
                     </p>
                     <div className="Social">
-                    <a alt="Facebook"
+                        <a alt="Facebook"
                             href='https://www.facebook.com/benevanio.santos.7/'
                             target='_blank'
                         >
-                        <FaFacebook size={30} style={{ color: 'black', marginRight: '2rem' }}/>
-                        <a  alt="Github"
-                            href='https://github.com/benetesla'
-                            target='_blank'>
-                        <FaGithub size={30} style={{
-                            color: 'black', marginRight: '2rem'}}/>
-                        </a>
+                            <FaFacebook size={30} style={{ color: 'black', marginRight: '2rem' }} />
+                            <a alt="Github"
+                                href='https://github.com/benetesla'
+                                target='_blank'>
+                                <FaGithub size={30} style={{
+                                    color: 'black', marginRight: '2rem'
+                                }} />
+                            </a>
                         </a>
                         <a alt="Instagram"
                             href='https://www.instagram.com/bene_tesla/'

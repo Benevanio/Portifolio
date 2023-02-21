@@ -8,7 +8,14 @@ const About = () => {
       <Navbar />
       <Projects
         Heading="About"
-        text="I am a MERN stack developer, MongoDB, Express, React, NodeJS"
+        text=" 👨‍💻 I'm a Full Stack Web
+                        Developer with a passion
+                        for learning new technologies
+                        and creating new things.
+                        I'm currently working on
+                        my skills and learning new
+                        technologies to become
+                        a better developer. 👨‍💻"
       />
      
       <Footer />

@@ -43,9 +43,13 @@ $color-secondary: #fff;
         font-size: 1.5rem;
         color: $color-secondary;
         text-align: center;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;  
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
     }
+    
 }
+
+
 
 @media screen and (min-width:640px) {
     .Hero__IMG {
