@@ -101,7 +101,7 @@ h1 {
 
         &.active {
             left: 0;
-            background-color: #9607d8;
+            background-color: rgba(0,0,0,0.4);
             transition: all 0.8s ease-in-out;
 
         }
