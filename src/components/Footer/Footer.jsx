@@ -57,29 +57,33 @@ const Footer = () => {
                     <p>
                         I am a MERN stack developer, MongoDB, Express, React, NodeJS
                     </p>
-                    <div className="Social">
-                        <a alt="Facebook"
-                            href='https://www.facebook.com/benevanio.santos.7/'
-                            target='_blank'
-                        >
-                            <FaFacebook size={30} style={{ color: 'black', marginRight: '2rem' }} />
-                            <a alt="Github"
-                                href='https://github.com/benetesla'
-                                target='_blank'>
-                                <FaGithub size={30} style={{
-                                    color: 'black', marginRight: '2rem'
-                                }} />
+                    <div className="Share">
+                        <span>Contact me</span>
+                        
+                            <a alt="Facebook"
+                                href='https://www.facebook.com/benevanio.santos.7/'
+                                target='_blank'
+                            >
+                                <FaFacebook size={30} style={{ color: 'white', marginRight: '2rem' }} />
+                                <a alt="Github"
+                                    href='https://github.com/benetesla'
+                                    target='_blank'>
+                                    <FaGithub size={30} style={{
+                                        color: 'white', marginRight: '2rem'
+                                    }} />
+                                </a>
                             </a>
-                        </a>
-                        <a alt="Instagram"
-                            href='https://www.instagram.com/bene_tesla/'
-                            target='_blank'>
-                            <FaInstagram size={30} style={{ color: 'black', marginRight: '2rem' }} />
-                        </a>
-                        <a href="https://www.linkedin.com/in/benevanio-santos-0b1b3b1b3/">
-                            <FaLinkedin size={30} style={{ color: 'black', marginRight: '2rem' }} />
-                        </a>
+                            <a alt="Instagram"
+                                href='https://www.instagram.com/bene_tesla/'
+                                target='_blank'>
+                                <FaInstagram size={30} style={{ color: 'white', marginRight: '2rem' }} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/benevanio-santos-0b1b3b1b3/">
+                                <FaLinkedin size={30} style={{ color: 'white', marginRight: '2rem',pading: '2rem' }} />
+                            </a>
+                       
                     </div>
+
                 </div>
             </div>
         </div>

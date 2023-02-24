@@ -58,19 +58,37 @@ $color-primary: #9607d8;
 .Right {
     height: 100%;
     max-width: 100%;
-    
+
     flex-direction: column;
-   
+
 }
-.Right h4{
+
+.Right h4 {
     color: antiquewhite;
+
+}
+
+.Right p {
+    color: antiquewhite;
+
+}
+
+.Share {
+    display: flex;
+    margin-bottom: 0.8rem;
+    flex-direction: column;
+    padding: 8px;
+
+    span {
+        margin: 5px;
+        color: antiquewhite;
+        font-size: 25px;
+    }
+    a{
+        color: antiquewhite;
+    }
+    i{
+        color: antiquewhite;
+    }
     
-}
-.Right p{
-    color: antiquewhite;
-   
-}
-.Social {    
-    flex-direction: row;
-    cursor: pointer;
 }
