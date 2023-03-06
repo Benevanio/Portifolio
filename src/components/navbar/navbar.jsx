@@ -14,14 +14,14 @@ const Navbar = () => {
         } else {
             setColor(false)
         }
-    }	
+    }
     window.addEventListener('scroll', changeBackground)
     return (
-        <div className={color ? 'Header Header-bg': 'Header'}>
+        <div className={color ? 'Header Header-bg' : 'Header'}>
             <Link to='/'>
-             
-                  <img src={TESLA} alt="Nikolatesla" id="Tesla"></img>
-        
+
+                <img src={TESLA} alt="Nikolatesla" id="Tesla"></img>
+
             </Link>
             <ul className={click ? "nav-links active" : "nav-links"}>
                 <li className='ICONES'>
@@ -46,9 +46,13 @@ const Navbar = () => {
                 </li>
 
                 <li className='nav-links__resume'>
-                    <a href={CV} target="_blank" rel="noreferrer">
-                        <i className="fas fa-file"></i>
-                    </a>
+                    <button class="download-button">
+                        <div class="docs"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> CV</div>
+                        <div class="download">
+                            <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+                            <Link  to={CV} download="Benetela.pdf" target="_blank" rel="noopener noreferrer"></Link>
+                        </div>
+                    </button>
                 </li>
 
             </ul>
@@ -57,7 +61,7 @@ const Navbar = () => {
                     <FaTimes
                         size={30}
                         style={{ color: 'white' }}
-                        
+
                     />
                 ) : (
                     <FaBars
