@@ -78,7 +78,7 @@ const Footer = () => {
                                 target='_blank'>
                                 <FaInstagram size={30} style={{ color: 'white', marginRight: '2rem' }} />
                             </a>
-                            <a href="https://www.linkedin.com/in/benevanio-santos-0b1b3b1b3/">
+                            <a href="https://www.linkedin.com/in/bene-tesla/">
                                 <FaLinkedin size={30} style={{ color: 'white', marginRight: '2rem',pading: '2rem' }} />
                             </a>
                        
