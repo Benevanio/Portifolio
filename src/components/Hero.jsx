@@ -20,21 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-5 text-white-100`}>
             Desenvolvedor FullStack <br className="sm:block hidden" />
-            <span className="text-[#915EFF]">MuleSoft</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">React</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">NodeJS</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">MongoDB</span>           
-            <span className="text-[#915EFF]">/</span>            
-            <span className="text-[#915EFF]">Express</span>  
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">Java</span>
-            <span className="text-[#915EFF]">/</span>   
-            <span className="text-[#915EFF]">Spring</span>  
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">MySQL</span>      
+            <span className="text-[#915EFF]">MERN</span>     
           </p>
         </div>
       </div>
