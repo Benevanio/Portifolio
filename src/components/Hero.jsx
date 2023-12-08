@@ -26,8 +26,21 @@ const Hero = () => {
             <span className="text-[#915EFF]">/</span>
             <span className="text-[#915EFF]">NodeJS</span>
             <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">MongoDB</span>
-            
+            <span className="text-[#915EFF]">MongoDB</span>           
+            <span className="text-[#915EFF]">/</span>            
+            <span className="text-[#915EFF]">Express</span>  
+            <span className="text-[#915EFF]">/</span>
+            <span className="text-[#915EFF]">Java</span>
+            <span className="text-[#915EFF]">/</span>   
+            <span className="text-[#915EFF]">Spring</span>  
+            <span className="text-[#915EFF]">/</span>
+            <span className="text-[#915EFF]">MySQL</span>
+            <span className="text-[#915EFF]">/</span>
+            <span className="text-[#915EFF]">PostgreSQL</span>
+            <span className="text-[#915EFF]">/</span>
+            <span className="text-[#915EFF]">SQLServer</span>
+            <span className="text-[#915EFF]">/</span>
+            <span className="text-[#915EFF]">Oracle</span>       
           </p>
         </div>
       </div>
