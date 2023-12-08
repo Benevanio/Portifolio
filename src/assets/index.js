@@ -23,12 +23,11 @@ import typescript from "./tech/typescript.png";
 
 import sysmap from "./company/sysmap.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  backend, carrent, close, creator, css,
+  backend, close, creator, css,
   docker,
   figma,
   git, github, html,
