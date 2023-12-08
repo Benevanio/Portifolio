@@ -48,3 +48,8 @@ Clone este projeto ou faça download!!
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bene-tesla/)
 
 [![linkedin](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bene_tesla/)
+
+
+## Horas nesse projeto
+
+[![wakatime](https://wakatime.com/badge/user/e1461a88-4a59-4bf1-b467-fcdd739232d8/project/6b86bbd9-c76d-4b61-bbff-1d359ff80af6.svg)](https://wakatime.com/badge/user/e1461a88-4a59-4bf1-b467-fcdd739232d8/project/6b86bbd9-c76d-4b61-bbff-1d359ff80af6)
