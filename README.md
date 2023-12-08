@@ -1,9 +1,8 @@
 # Portfolio Website
 
-This is my personal portfolio built using React.js and Sass. The mobile menu is implemented using the React UserState Hook, responsible for controlling the menu state via a ternary operator. The project structure includes the following pages:
+This is my personal portfolio built using React.js and Tailwind CSS. The mobile menu is implemented using the React UserState Hook, responsible for controlling the menu state via a ternary operator. The project structure includes the following pages:
 
 - **Components:** Houses each application component and its respective style sheet.
-- **Section:** A place to store sections and their style sheets.
 - The entire page is rendered in `App.js`.
 - Navigation is implemented using React Router Dom.
 
@@ -16,7 +15,7 @@ This is my personal portfolio built using React.js and Sass. The mobile menu is 
 **Front-end:**
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Installation
 
