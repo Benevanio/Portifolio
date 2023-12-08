@@ -23,8 +23,6 @@ import typescript from "./tech/typescript.png";
 
 import sysmap from "./company/sysmap.png";
 
-import tripguide from "./tripguide.png";
-
 export {
   backend, close, creator, css,
   docker,
@@ -33,6 +31,6 @@ export {
   javascript, logo, menu, mobile, mongodb,
   nodejs,
   reactjs,
-  redux, sysmap, tailwind, threejs, tripguide, typescript, web
+  redux, sysmap, tailwind, threejs, typescript, web
 };
 
