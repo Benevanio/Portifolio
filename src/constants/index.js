@@ -107,7 +107,7 @@ const technologies = [
     icon: docker,
   },
 ];
-
+//experience
 const experiences = [
   {
     title: "Analista de Sustentação MuleSoft",
@@ -125,7 +125,7 @@ const experiences = [
   }
 ];
 
-
+//"If you have feedback on the work, create a field here specifically for major projects."
 
 export { experiences, services, technologies };
 
