@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
            Olá eu sou <span className="text-[#915EFF]">Bene</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-5 text-white-100`}>
             Desenvolvedor FullStack <br className="sm:block hidden" />
             <span className="text-[#915EFF]">MuleSoft</span>
             <span className="text-[#915EFF]">/</span>
@@ -47,7 +47,7 @@ const Hero = () => {
       
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-11 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
