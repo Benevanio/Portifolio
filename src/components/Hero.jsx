@@ -34,13 +34,7 @@ const Hero = () => {
             <span className="text-[#915EFF]">/</span>   
             <span className="text-[#915EFF]">Spring</span>  
             <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">MySQL</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">PostgreSQL</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">SQLServer</span>
-            <span className="text-[#915EFF]">/</span>
-            <span className="text-[#915EFF]">Oracle</span>       
+            <span className="text-[#915EFF]">MySQL</span>      
           </p>
         </div>
       </div>
