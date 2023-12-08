@@ -23,7 +23,6 @@ import typescript from "./tech/typescript.png";
 
 import sysmap from "./company/sysmap.png";
 
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -31,7 +30,7 @@ export {
   docker,
   figma,
   git, github, html,
-  javascript, jobit, logo, menu, mobile, mongodb,
+  javascript, logo, menu, mobile, mongodb,
   nodejs,
   reactjs,
   redux, sysmap, tailwind, threejs, tripguide, typescript, web
